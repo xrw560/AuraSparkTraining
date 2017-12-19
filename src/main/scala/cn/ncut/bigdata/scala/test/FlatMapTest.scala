@@ -6,8 +6,6 @@ import org.apache.spark.{SparkConf, SparkContext}
   * Created by zhouning on 2017/12/19.
   */
 object FlatMapTest {
-
-
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setMaster("local").setAppName("flatmap")
     val sc = new SparkContext(conf)
